@@ -1,6 +1,6 @@
 #!/bin/bash
 CURSOR_DOWNLOAD_URL="https://downloader.cursor.sh/linux/appImage/x64"
-CURSOR_ICON_URL="./cursor.webp"
+CURSOR_ICON_URL="https://github.com/karapetyan47/cursor-installer-ubuntu/blob/master/cursor.webp"
 
 # Install Cursor
 CURSOR_FOLDER="/opt/cursor"
