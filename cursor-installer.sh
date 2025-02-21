@@ -34,7 +34,7 @@ echo "Creating desktop entry..."
 sudo tee $DESKTOP_FILE > /dev/null <<EOL
 [Desktop Entry]
 Name=Cursor
-Exec=$FILE_PATH
+Exec=$FILE_PATH --no-sandbox
 Icon=$ICON_PATH
 Type=Application
 Categories=Development;IDE;
